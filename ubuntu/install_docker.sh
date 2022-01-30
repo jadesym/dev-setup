@@ -34,7 +34,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo groupadd docker --force
 sudo usermod -aG docker $USER
 
-echo -e "\n${GREEN}Finished installing all necessary docker dependencies!${NO_COLOR}"
+echo -e "\n${GREEN}Finished installing all necessary dependencies and packages for docker!${NO_COLOR}"
 
 # Verify everything is working
 # Run the hello-world docker image
