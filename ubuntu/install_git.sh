@@ -15,6 +15,8 @@ sudo apt-get install git -y
 
 # Set default editor for git to vim
 git config --global core.editor vim
+# Automatically set up remote tracking so its not necessary
+git config --global push.autoSetupRemote true
 
 # Install Github CLI
 sudo apt install gh -y
