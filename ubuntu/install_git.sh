@@ -17,6 +17,8 @@ sudo apt-get install git -y
 git config --global core.editor vim
 # Automatically set up remote tracking so its not necessary
 git config --global push.autoSetupRemote true
+# Ensure that 'git push' only pushes the current branch to a remote repo with the same name
+git config --global push.default current
 
 # Install Github CLI
 sudo apt install gh -y
