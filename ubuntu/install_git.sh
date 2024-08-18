@@ -4,6 +4,10 @@
 GREEN='\033[0;32m'
 NO_COLOR='\033[0m'
 
+# Ensure that git can be updated properly
+sudo apt install ppa-purge
+sudo ppa-purge ppa:git-core/ppa
+
 sudo apt update
 
 # Install Git
